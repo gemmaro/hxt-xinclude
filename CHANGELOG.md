@@ -1,5 +1,7 @@
 # Revision history for hxt-xinclude
 
-## 0.1.0.0 -- YYYY-mm-dd
+## 0.1.0.0 -- 2021-11-01
 
-* First version. Released on an unsuspecting world.
+### Added
+
+* `extract` function.
