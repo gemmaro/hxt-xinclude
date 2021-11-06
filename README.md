@@ -47,7 +47,7 @@ Then use it in the code:
 import qualified Text.XML.HXT.XInclude as XInclude (extract)
 
 something :: IOSArrow XmlTree XmlTree
-something = processThese >>> propagateNamespaces >>> XInclude.extract >>> processThose
+something = processThese >>> XInclude.extract >>> processThose
 
 ...
 ```
