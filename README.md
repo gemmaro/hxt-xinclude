@@ -6,8 +6,7 @@ XInclude support for Haskell XML Toolbox (HXT).
 ## NOTE
 
 * This library is not feature complete.
-* Prefix is fixed to `"xi"`.
-  * Namespace URI is `"http://www.w3.org/2001/XInclude"` ([XML Inclusions (XInclude) Version 1.0 (Second Edition) > 3 Syntax](https://www.w3.org/TR/2006/REC-xinclude-20061115/#syntax)).
+* Namespace URI is `"http://www.w3.org/2001/XInclude"` ([XML Inclusions (XInclude) Version 1.0 (Second Edition) > 3 Syntax](https://www.w3.org/TR/2006/REC-xinclude-20061115/#syntax)).
 
 ## Example usage
 

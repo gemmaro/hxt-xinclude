@@ -10,7 +10,7 @@ processWithSourcePath :: FilePath -> IOSArrow XmlTree XmlTree
 processWithSourcePath s =
   processBottomUp $
     (extractedChildren s $< getAttrValue "href" &&& getAttrValue "parse")
-      `when` hasQName (mkQName "xi" "include" "http://www.w3.org/2001/XInclude")
+      `when` hasNamespaceUri "http://www.w3.org/2001/XInclude"
 
 extractedChildren ::
   -- | File path of parent document
